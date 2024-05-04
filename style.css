@@ -2,7 +2,14 @@
     margin-right: 20px;
 }
 
+.logo-container {
+    width: 300px;
+}
 
+.navbar-float-buttons-right{
+    display: flex;
+    justify-content: space-between;
+}
 
 
 
