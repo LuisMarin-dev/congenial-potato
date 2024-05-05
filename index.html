@@ -17,7 +17,7 @@
       <div class="btn-group">
         <!-- Modal button 00 -->
         <!-- Button trigger modal -->
-        <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#staticBackdrop">Create new post</button>
+        <button type="button" class="btn btn-success" data-bs-toggle="modal" data-bs-target="#staticBackdrop">Create new post</button>
     
         <!-- Modal actual window-->
         <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
@@ -28,11 +28,20 @@
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                 </div>
                 <div class="modal-body">
-                ...
+                  <div class="mb-3">
+                    <label for="modal-textarea" class="form-label">Caption:</label>
+                    <textarea class="form-control" id="modal-textarea" rows="3" placeholder="Add the caption to your post here"></textarea>
+                  </div>
+                  <button type="button" class="btn btn-light">
+                    <img src="./img/camera.png" alt="" width="20px" height="20px">
+                  </button>
+                  <button type="button" class="btn btn-light">
+                    <img src="./img/pin.png" alt="" width="20px" height="20px">
+                  </button>
                 </div>
                 <div class="modal-footer">
                 <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                <button type="button" class="btn btn-primary">Understood</button>
+                <button type="button" class="btn btn-success">Publish</button>
                 </div>
             </div>
             </div>
