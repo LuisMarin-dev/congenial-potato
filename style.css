@@ -3,13 +3,14 @@
 }
 
 .logo-container {
-    width: 300px;
+    max-width: 300px !important;
+    margin-left: 15px;
 }
 
-.navbar-float-buttons-right{
+/* .navbar-float-buttons-right{
     display: flex;
     justify-content: space-between;
-}
+} */
 
 
 
